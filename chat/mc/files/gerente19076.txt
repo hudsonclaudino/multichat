@@ -1,0 +1,36 @@
+RESULTADO DA IMPORTAÇÃO DO ARQUIVO:
+=====================================
+
+
+1) NOME: Nilton1; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+2) NOME: Nilton2; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+3) NOME: Nilton3; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+4) NOME: Nilton4; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+5) NOME: Nilton5; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+6) NOME: Nilton6; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+7) NOME: Nilton7; CPF: 12312312312; EMAIL niltonssjr@gmail.com . - ERROS: CPF informado é inválido - 
+8) NOME: Nilton8; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+9) NOME: Nilton9; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+10) NOME: Nilton10; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+11) NOME: Nilton11; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+12) NOME: Nilton12; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+13) NOME: Nilton13; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+14) NOME: Nilton14; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+15) NOME: Nilton15; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+16) NOME: Nilton16; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+17) NOME: Nilton17; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+18) NOME: Nilton18; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+19) NOME: Nilton19; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+20) NOME: Nilton20; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+21) NOME: Nilton21; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+22) NOME: Nilton22; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+23) NOME: Nilton23; CPF: aaaaaaaaaaa; EMAIL niltonssjr@gmail.com . - ERROS: CPF informado é inválido - 
+24) NOME: Nilton24; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+25) NOME: Nilton25; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+26) NOME: Nilton26; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+27) NOME: Nilton27; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+28) NOME: Nilton28; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+
+Registros lidos :28
+Registros incluídos :26
+Registros com erros :2

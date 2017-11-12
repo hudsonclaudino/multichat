@@ -1,0 +1,248 @@
+@font-face{
+	font-family:fonte_logo;
+	src: url("../font/BoltBoldBT.ttf");
+}
+
+body {
+	background-color: #f5f5f5;
+}
+.operador_dashboard_externo{	
+	position:relative;
+	display:block;	
+	min-height:245px;
+	margin-top: calc(50vh - 200px);	
+}
+
+.operador_dashboard_interno{
+	background-color:white;	
+	display:block;
+	border:1px groove rgba(0,0,0,0.1);
+	box-shadow:2px 2px 2px rgba(0,0,0,0.1);
+	height:auto;		
+	min-height:345px;
+}
+
+#operador_barra_superior{
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	background-color:#a94442;
+	color:white;
+	font-weight: bold;
+	height:35px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+	
+}
+
+.operador_barra_superior_logo {
+	
+	text-align:left;
+	padding:5px 16px;
+	display:block;
+	font-size:1.3em;	
+	font-family: fonte_logo;	
+	letter-spacing: 2px;
+}
+
+.operador_online{
+	color:green;
+}
+
+.operador_offline{
+	color:red;
+}
+
+#operador_icon{
+	background-color:white;
+	border-radius:25px;
+	width:25px;
+	height:25px;
+	padding:5px;
+	text-align:center;
+	margin-top:0px;
+}
+
+.alinha_usuario{
+	float:right;
+	padding-right:8px;
+}
+
+#operador_usuario{
+	font-size:1.3em;
+	padding:5px;	
+	display:inline-block;
+}
+
+.caret:hover{
+	color:#ccc;
+}
+
+#operador_botoes{
+	margin-top:10px;	
+	margin-bottom:10px;
+	text-align:right;
+	
+}
+
+.cliente_titulo{
+	margin-top:7px;
+	font-size:1em;
+	display:block;	
+	text-align:center;
+}
+
+.cliente_valor{
+	margin-top:2px;
+	font-size:1.5em;
+	display:block;	
+	font-weight: bold;
+	text-align:center;
+}
+
+#operador_menu{
+	position:absolute;
+	display:none;
+	z-index:1;
+	background-color:white;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding:15px;
+	color:black;
+}
+#operador_menu ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.oper_nav {
+	text-align:center;
+}
+.oper_nav ul{
+	padding:0;
+	margin:0;
+	display: inline-block;
+}
+
+.oper_nav ul li{
+	list-style-type: none;
+	display:inline-block;
+	padding: 10px 20px;
+}
+
+.oper_nav ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+#box_conversa, #box_fila_vazia, #box_fila_atendimento, #box_operador_offline{
+	display: none;
+}
+
+.height_box_conversa{
+	height:350px;
+}
+
+#conversa{
+	overflow-x:auto;
+	height:260px;
+	padding:5px	
+}
+
+#box_operador_offline{
+
+}
+
+.box_interno > button{
+	margin-top:35px;
+}
+
+.box_interno{
+	height:200px;
+	margin-top:75px;
+	text-align:center;
+	color:#a94442;
+}
+
+#operador_cliente_ident{
+	background-color:#f3f3f3;
+	color:black;
+	margin:8px 0px;
+	text-align:center;	
+}
+
+#nome_cliente{
+	font-size:1.2em;
+	font-weight: bold;
+}
+
+.mensagem_operador_texto{	
+	color:blue;	
+	margin-top:5px;
+	margin-left:5px;	
+	display: block;
+	text-align:left;
+
+}
+
+.mensagem_cliente_texto{	
+	color:green;	
+	margin-top:5px;
+	margin-left:5px;	
+	display: block;
+	text-align:left;
+}
+
+.mensagem_data_corrente{
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px 10px;
+	text-align: center;	
+	color:black;
+	font-size:1.2em;
+	font-weight: bold;
+	background-color:#f3f3f3;
+	border-radius:40px;
+}
+
+.mensagem_hora_corrente{
+	font-size:0.6em;
+}
+
+#div_operador_texto{
+	margin-top:10px;
+}
+
+#btn_operador_menu{
+	outline:0;
+}
+
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+#btn_operador_menu{
+	background-color:transparent;
+	color:black;
+	border:none	;
+}
+
+#btn_operador_menu:focus{
+	border:none;
+}
+
+.conversa_finalizada{
+	text-align:center;
+	margin-top:10px;
+}
+
+.conversa_finalizada > span{
+	padding: 5px 10px;
+	background-color:#f3f3f3;
+	color:black;
+	border-radius:20px;
+	font-size:1.2em;
+	margin-top:10px;
+	margin-bottom:10px;
+}

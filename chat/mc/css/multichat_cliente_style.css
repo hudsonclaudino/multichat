@@ -1,0 +1,124 @@
+@font-face{
+	font-family:fonte_logo;
+	src: url("../font/BoltBoldBT.ttf");
+}
+
+body {
+	background-color: #f5f5f5;
+}
+.cliente_ident_externo, .cliente_mensagem_externo{	
+	position:relative;	
+	min-height:245px;	
+}
+
+.cliente_ident_externo{
+	margin-top: calc(50vh - 150px);	
+	display:block;
+}
+
+.cliente_mensagem_externo{
+	margin-top: calc(50vh - 210px);	
+	display:none;
+	padding-bottom:10px;
+}
+
+.cliente_ident_interno{
+	background-color:white;	
+	display:block;
+	border:1px groove rgba(0,0,0,0.1);
+	box-shadow:2px 2px 2px rgba(0,0,0,0.1);
+	height:auto;		
+}
+
+.cliente_ident_interno >span {
+	text-align:center;
+	display:block;
+	font-size:1.5em;
+	font-weight: bold;
+	font-family: fonte_logo;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	background-color:#a94442;
+	color:white;
+	margin-top:10px;
+	letter-spacing: 2px;
+}
+
+.cliente_ident_interno p{
+	text-align: center;
+	margin-top:15px;
+}
+
+.cliente_ident_interno form{
+	margin-top:15px;
+}
+
+.cliente_ident_interno form .input-group{
+	margin:10px 15px;
+}
+
+.cliente_ident_botoes{
+	text-align:right;
+	margin-right:15px;
+}
+
+#desistencia, #fila_de_espera, #div_mensagem_offline, #div_agradece_mensagem, #div_operadores_offline, #div_agradece_conversa{
+	display:none;
+}
+
+#div_loading, .div_centraliza{
+	text-align:center;
+}
+#loading{
+	height:50px;
+}
+
+#btn_janela_offline{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.cliente_offline_botoes{
+	text-align:right;
+	margin-right:0;
+	margin-bottom:10px;
+}
+
+#conversa{
+	overflow-x:auto;
+	height:290px;
+	padding:5px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+}
+
+#div_texto_digitado{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+#div_data_cabec_conversa{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#div_data_cabec_conversa span{
+	padding:3px 10px;
+	font-size:1.1em;
+	background-color: #a94442;
+	border-radius:10px;
+	color: white;
+	font-weight: bold;
+}
+
+#btn_finaliza_conversa{
+	background-color: #a94442;
+	color:white;
+	padding: 3px 10px;
+	margin-bottom:10px;
+	border-radius:5px;
+}
+
+#btn_finaliza_conversa:hover{
+	background-color: #953028;
+}

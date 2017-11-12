@@ -1,0 +1,1065 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clientec",
+				"cliente_cpf_valor"
+			],
+			[
+				"conten",
+				"Content-Disposition"
+			],
+			[
+				"Content",
+				"Content-Type"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"gly",
+				"glyphicon-user"
+			],
+			[
+				"ctrl_md",
+				"ctrl_md_conversa_cliente_email"
+			],
+			[
+				"data",
+				"data-conversa-id"
+			],
+			[
+				"set_mensagem",
+				"set_mensagem_texto"
+			],
+			[
+				"ctrl_",
+				"ctrl_md_conversa_texto"
+			],
+			[
+				"data-conversa-cliente",
+				"data-conversa-cliente-email"
+			],
+			[
+				"ctrl",
+				"ctrl_md_conversa_status_descricao"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"data-",
+				"data-conversa-cliente-nome"
+			],
+			[
+				"gl",
+				"glyphicon"
+			],
+			[
+				"conversa",
+				"conversa_detalhe"
+			],
+			[
+				"div_conversas",
+				"div_conversas_detalhe"
+			],
+			[
+				"padrao",
+				"padrao_segundos"
+			],
+			[
+				"pa",
+				"padrao_horas"
+			],
+			[
+				"padra",
+				"padrao_segundos"
+			],
+			[
+				"tb_",
+				"tb_entrada_na_fila"
+			],
+			[
+				"div",
+				"div_lista_conversas"
+			],
+			[
+				"tab_convers",
+				"tab_conversas_tbody"
+			],
+			[
+				"tabela",
+				"tabela_conversas_corpo"
+			],
+			[
+				"pesquisa",
+				"pesquisa_conversas"
+			],
+			[
+				"linha",
+				"linha_email_conversa"
+			],
+			[
+				"horario",
+				"horario_formatado"
+			],
+			[
+				"data_",
+				"data_negociacao_original"
+			],
+			[
+				"Contr",
+				"controle_atualizacao_conversa"
+			],
+			[
+				"operador",
+				"operadores_offline"
+			],
+			[
+				"finaliza",
+				"finaliza_conversa"
+			],
+			[
+				"proc",
+				"processData"
+			],
+			[
+				"atualiza",
+				"atualiza_controles_operador_online"
+			],
+			[
+				"mensagem_operador",
+				"mensagem_operador_texto"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"mensagem_operador_",
+				"mensagem_operador_texto"
+			],
+			[
+				"reto",
+				"retorno_verifica_novas_mensagens_atualiza_div"
+			],
+			[
+				"content",
+				"contentType"
+			],
+			[
+				"mensagem_",
+				"mensagem_remetente"
+			],
+			[
+				"cpf",
+				"cpf_formatado"
+			],
+			[
+				"fila_num_clente",
+				"fila_num_clientes_anterior"
+			],
+			[
+				"fila_",
+				"fila_num_clientes_anterior"
+			],
+			[
+				"fila",
+				"fila_num_clientes"
+			],
+			[
+				"link_",
+				"link_alternar_status"
+			],
+			[
+				"tornar",
+				"tornar_operador_offline"
+			],
+			[
+				"box",
+				"box_operador_offline"
+			],
+			[
+				"box_fi",
+				"box_fila_atendimento"
+			],
+			[
+				"height",
+				"height_box_conversa"
+			],
+			[
+				"posicao",
+				"posicao_na_fila"
+			],
+			[
+				"atualiza_",
+				"atualiza_operadores_offline"
+			],
+			[
+				"mensagem",
+				"mensagem_offline"
+			],
+			[
+				"set_conversa_fila",
+				"set_conversa_fila_entrada"
+			],
+			[
+				"conte",
+				"align-content"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"enviar_e",
+				"enviar_email_mudanca_senha"
+			],
+			[
+				"usuario_pesquisar",
+				"usuario_pesquisar_argumento"
+			],
+			[
+				"arg",
+				"arg_pesquisa"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "operador_dashboard_view.php",
+			"settings":
+			{
+				"buffer_size": 20740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "operador_verifica_status.php",
+			"settings":
+			{
+				"buffer_size": 1722,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "class/ConsisteFormataString.php",
+			"settings":
+			{
+				"buffer_size": 1671,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "operador_associa_cpf.php",
+			"settings":
+			{
+				"buffer_size": 2851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\n\tclass Campanha{\n\n\t\tprivate $db_conn;\n\t\tprivate $Email;\n\n\t\tprivate $campcab_id;\t\t\n\t\tprivate $campcab_nome;\n\t\tprivate $campcab_descricao;\n\t\tprivate $campcab_mensagem;\n\t\tprivate $campcab_criacao_data;\n\t\tprivate $campcab_criacao_usuario;\n\t\tprivate $campcab_envio_data;\n\t\tprivate $campcab_envio_usuario;\n\t\tprivate $campcab_status;\n\t\tprivate $campcab_status_extenso;\n\t\tpublic $campcab_quantidade;\n\t\tpublic $campanhas;\n\n\t\tprivate $campdet_id;\n\t\tprivate $campdet_campcab_id;\n\t\tprivate $campdet_cliente_nome;\n\t\tprivate $campdet_cliente_cpf;\n\t\tprivate $campdet_cliente_email;\n\t\tprivate $campdet_cadastro_usuario;\n\t\tprivate $campdet_cadastro_data;\n\t\tpublic $campdet_quantidade;\n\t\tprivate  $campdet_token_conversa;\n\t\tprivate $campdet_conversa_id;\n\t\tpublic $convites;\n\n\t\tpublic  $erros;\n\n\t\tpublic $nome_arquivo_entrada;\n\t\tpublic $nome_arquivo_saida;\n\n\t\tpublic function __construct($conexao){\n\t\t\t$this->db_conn = $conexao;\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function set_campcab_id($id){\n\t\t\t$this->campcab_id = $id;\n\t\t}\n\t\tpublic function set_campcab_status($status){\n\t\t\t$this->campcab_status = $status;\n\t\t}\n\t\tpublic function set_campcab_nome($nome){\n\t\t\t$this->campcab_nome = strtoupper($nome);\n\t\t}\n\n\t\tpublic function set_campcab_descricao($descricao){\n\t\t\t$this->campcab_descricao = $descricao;\n\t\t}\n\n\t\tpublic function set_campcab_mensagem($mensagem){\n\t\t\t$this->campcab_mensagem = $mensagem;\n\t\t}\n\n\t\tpublic function set_campdet_id($id){\n\t\t\t$this->campdet_id = $id;\n\t\t}\n\n\t\tpublic function set_campdet_cliente_nome($nome){\n\t\t\t$this->campdet_cliente_nome = $nome;\n\t\t}\n\n\t\tpublic function set_campdet_cliente_cpf($cpf){\n\t\t\t$this->campdet_cliente_cpf = preg_replace(\"/[^0-9]/\",\"\",$cpf);\n\t\t}\n\t\tpublic function set_campdet_cliente_email($email){\n\t\t\t$this->campdet_cliente_email = $email;\n\t\t}\n\n\t\tpublic function set_campdet_token_conversa($token){\n\t\t\t$this->campdet_token_conversa= $token;\n\t\t}\n\n\t\tpublic function get_campcab_status_extenso(){\n\t\t\tswitch ($this->campcab_status) {\n\t\t\t\tcase '0':\n\t\t\t\t\t$this->campcab_status_extenso= \"Criada\";\n\t\t\t\t\tbreak;\n\t\t\t\tcase \"1\":\n\t\t\t\t\t$this->campcab_status_extenso= \"Enviada\";\n\t\t\t\t\tbreak;\n\t\t\t\tdefault:\n\t\t\t\t\t$this->campcab_status_extenso= \"Não identificado\";\n\t\t\t\t\tbreak;\n\t\t\t}\n\t\t\treturn $this->campcab_status_extenso;\n\n\t\t}\n\n\t\tpublic function get_campcab_id(){\n\t\t\treturn $this->campcab_id;\n\t\t}\n\n\t\tpublic function get_campcab_nome(){\n\t\t\treturn $this->campcab_nome;\n\t\t}\n\n\t\tpublic function get_campcab_mensagem(){\n\t\t\treturn $this->campcab_mensagem;\n\t\t}\n\n\t\tpublic function get_campcab_criacao_data(){\n\t\t\treturn $this->campcab_criacao_data;\n\t\t}\n\n\t\tpublic function get_campcab_criacao_usuario(){\n\t\t\treturn $this->campcab_criacao_usuario;\n\t\t}\n\n\t\tpublic function get_campcab_envio_data(){\n\t\t\treturn $this->campcab_envio_data;\n\t\t}\n\n\t\tpublic function get_campcab_envio_usuario(){\n\t\t\treturn $this->campcab_envio_usuario;\n\t\t}\n\n\t\tpublic function get_campcab_status(){\n\t\t\treturn $this->campcab_status;\n\t\t}\n\n\t\tpublic function get_campdet_id(){\n\t\t\treturn $this->campdet_id;\n\t\t}\n\n\t\tpublic function get_campdet_cliente_nome(){\n\t\t\treturn $this->campdet_cliente_nome;\n\t\t}\n\n\t\tpublic function get_campdet_cliente_email(){\n\t\t\treturn $this->campdet_cliente_email;\n\t\t}\n\n\t\tpublic function get_campdet_cliente_cpf(){\n\t\t\treturn $this->campdet_cliente_cpf;\t\n\t\t}\n\n\t\tpublic function set_campdet_conversa_id($conversa_id){\n\t\t\t$this->campdet_conversa_id = $conversa_id;\n\t\t}\n\n\t\tpublic function get_campdet_conversa_id(){\n\t\t\treturn $this->campdet_conversa_id;\n\t\t}\n\n\t\t//lista resumida de campanhas para o dashboard\n\t\tpublic function lista_campanhas_dashboard(){\n\n\t\t\t$this->campanhas = array();\n\t\t\t$this->campcab_quantidade = 0;\n\n\t\t\t$sql = \"select a.campcab_id as id, a.campcab_nome as nome, a.campcab_criacao_data as criacao_data, a.campcab_envio_data as envio_data, a.campcab_status as status, count(b.campdet_campcab_id) as qtd_envios from MULTICHAT_CAMPANHA_CAB a left join MULTICHAT_CAMPANHA_DET b on a.campcab_id = b.campdet_campcab_id group by a.campcab_id order by a.campcab_criacao_data desc, a.campcab_id desc limit 10\";\n\n\t\t\t$resultado=$this->db_conn->query($sql) or die(\"Erro no acesso ao cadastro de campanhas, código trgty / \" . $this->db_conn->error);\n\n\t\t\twhile($campanha=$resultado->fetch_assoc()){\n\t\t\t\t$this->campanhas[]=$campanha;\n\t\t\t}\n\t\t\t\n\t\t\t$this->campcab_quantidade = count($this->campanhas);\n\n\t\t\treturn;\n\n\t\t}\n\n\t\t//listagem padrao de campanhas\n\t\tpublic function lista_campanhas($argumento = \"\"){\n\n\t\t\t$this->campanhas = array();\n\t\t\t$this->campcab_quantidade = 0;\n\t\t\t$sql_argumento = \"\";\n\n\n\t\t\tif (strlen($argumento)>0){\n\t\t\t\t$sql_argumento = \" where cab.campcab_nome like '%{$argumento}%' or \";\t\n\t\t\t\t$sql_argumento.= \" cab.campcab_descricao like '%{$argumento}%' or \";\n\t\t\t\t$sql_argumento.= \" cab.campcab_criacao_usuario like '%{$argumento}%' or \";\n\t\t\t\t$sql_argumento.= \" cab.campcab_envio_usuario like '%{$argumento}%' or \";\n\t\t\t\t$sql_argumento.= \" det.campdet_cliente_nome like '%{$argumento}%' or \";\n\t\t\t\t$sql_argumento.= \" det.campdet_cliente_email like '%{$argumento}%' \";\n\t\t\t}\t\t\t\n\n\t\t\t$sql = \"Select cab.campcab_id as id, \";\n\t\t\t$sql.=       \" cab.campcab_nome as nome, \";\n\t\t\t$sql.=       \" cab.campcab_criacao_data as criacao_data, \";\n\t\t\t$sql.=       \" cab.campcab_criacao_usuario as criacao_usuario, \";\n\t\t\t$sql.=       \" cab.campcab_envio_data as envio_data, \";\n\t\t\t$sql.=       \" cab.campcab_envio_usuario as envio_usuario, \";\n\t\t\t$sql.=       \" cab.campcab_status as status, \";\n\t\t\t$sql.=       \" count(det.campdet_id) as envios \";\n\t\t\t$sql.= \"from MULTICHAT_CAMPANHA_CAB cab left join MULTICHAT_CAMPANHA_DET det \";\n\t\t\t$sql.= \" on cab.campcab_id = det.campdet_campcab_id \";\n\t\t\t$sql.= $sql_argumento;\n\t\t\t$sql.= \" group by cab.campcab_id \";\n\t\t\t$sql.= \" order by cab.campcab_id desc\";\t\t\n\n\t\t\t$resultado=$this->db_conn->query($sql) or die(\"Erro no acesso ao cadastro de campanhas, código trgt9a / \" . $this->db_conn->error);\n\n\t\t\twhile($campanha=$resultado->fetch_assoc()){\n\t\t\t\t$this->campanhas[]=$campanha;\n\t\t\t\t\n\t\t\t}\n\t\t\t\n\t\t\t$this->campcab_quantidade = count($this->campanhas);\n\n\t\t\treturn;\n\n\t\t}\n\t\tpublic function obtem_campanha_por_id(){\t\t\t\n\n\t\t\t$this->campanhas=array();\n\t\t\t$this->campcab_quantidade=0;\n\t\t\t$this->convites=array();\n\t\t\t$this->campdet_quantidade=0;\n\n\t\t\t$sql=\"select * from MULTICHAT_CAMPANHA_CAB where campcab_id = \" . $this->campcab_id;\n\n\t\t\t$resultado=$this->db_conn->query($sql) or die(\"Erro no acesso ao cadastro base de campanhas, código gher / \" . $this->db_conn->error . \"/\" . $sql);\n\n\t\t\t$dados=$resultado->fetch_assoc();\n\n\t\t\tif (count($dados)==0){\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$this->campcab_quantidade=count($dados);\n\t\t\t$this->campcab_id=$dados['campcab_id'];\n\t\t\t$this->campcab_nome=$dados['campcab_nome'];\n\t\t\t$this->campcab_descricao=$dados['campcab_descricao'];\n\t\t\t$this->campcab_mensagem=$dados['campcab_mensagem'];\n\t\t\t$this->campcab_criacao_data=$dados['campcab_criacao_data'];\n\t\t\t$this->campcab_criacao_usuario=$dados['campcab_criacao_usuario'];\n\t\t\t$this->campcab_envio_data=$dados['campcab_envio_data'];\n\t\t\t$this->campcab_envio_usuario=$dados['campcab_envio_usuario'];\n\t\t\t$this->campcab_status=$dados['campcab_status'];\n\n\t\t\treturn;\t\n\n\t\t}\n\n\t\tpublic function exclui_campanha(){\n\n\t\t\t$this->erros=array();\n\t\t\t$this->obtem_campanha_por_id();\n\n\t\t\tif ($this->campcab_quantidade==0){\n\t\t\t\t$this->erros['campanha_nao_encontrada'] = \"Campanha inexistente\";\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\tif (!is_null($this->campcab_envio_data)){\n\t\t\t\t$this->erros['campanha_enviada'] = \"Não é possível excluir campanhas já enviadas\";\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\ttry{\n\t\t\t\t$this->db_conn->query(\"start transaction\");\n\t\t\t\t$this->db_conn->query(\"delete from MULTICHAT_CAMPANHA_DET where campdet_campcab_id=\" . $this->campcab_id);\n\t\t\t\t$this->db_conn->query(\"delete from MULTICHAT_CAMPANHA_CAB where campcab_id=\" . $this->campcab_id);\n\t\t\t\t$this->db_conn->query(\"commit\");\n\n\t\t\t} catch (Exception $e){\t\t\t\t\n\t\t\t\t$this->erros['erro_sql']= \"Erro na exclusão da campanha. Status xbge / \" . $this->db_conn->error;\n\t\t\t\t$this->db_conn->query(\"rollback\");\n\t\t\t\treturn;\n\t\t\t}\n\t\t}\n\n\t\tpublic function valida_campanha_cab(){\n\n\t\t\t$this->erros=array();\n\n\t\t\tif (strlen($this->campcab_nome)==0){\n\t\t\t\t$this->erros['nome_nao_informado'] = \"Informe o nome da campanha\";\n\t\t\t}\n\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function atualiza_campanha(){\n\n\t\t\t$this->erros=array();\t\t\t\t\t\n\n\t\t\tif ($this->campcab_id ==0){\n\n\t\t\t\t$sql = \"Insert into MULTICHAT_CAMPANHA_CAB (campcab_nome, campcab_mensagem, campcab_criacao_usuario) values (?,?,?)\";\n\t\t\t} else {\n\t\t\t\t$sql = \"Update MULTICHAT_CAMPANHA_CAB set campcab_nome = ?, campcab_mensagem = ?, campcab_criacao_usuario = ? where campcab_id = \";\n\t\t\t\t$sql.= $this->campcab_id;\n\t\t\t}\n\n\t\t   try {\n \t\t\t\t$statement = $this->db_conn->prepare($sql);\n\t\t\t\t$statement->bind_param(\"sss\",$this->campcab_nome, $this->campcab_mensagem, $_SESSION['multichat_user']);\n\t\t\t\t$statement->execute();\t\t\n\n\t\t\t} catch (mysqli_sql_exception $e) {\n\t\t\t\techo $e->errno;\n\t\t\t\tdie();\n\t\t\t\t\tthrow $e;\n\t\t\t}\t\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\t$mensagem= \"Deu erro na atualização: \"  . $this->db_conn->errno . \"(\" . $this->db_conn->error . \")\";\t\t\t\t\n\t\t\t\t$this->erros['tepeguei']=$mensagem;\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t$statement->close();\n\n\t\t\tif ($this->campcab_id == 0 ){\n\t\t\t\t$this->campcab_id = $this->db_conn->insert_id;\n\t\t\t}\n\t\t\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function carregar_convites(){\n\n\t\t\t$this->convites = array();\n\t\t\t$this->campdet_quantidade = 0;\n\n\t\t\t$sql = \"Select * from MULTICHAT_CAMPANHA_DET where campdet_campcab_id = \" . $this->campcab_id;\n\n\t\t\t$pesquisa=$this->db_conn->query($sql);\t\t\t\n\n\t\t\tif ($this->db_conn->errno > 0 ){\n\t\t\t\t$this->erros[]=\"Erro no acesso ao cadastro de convites. \" . $this->db_conn->error . \" / \" . $sql;\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\twhile($registro=$pesquisa->fetch_assoc())\t\t\t\n\t\t\t{\n\t\t\t\t$this->convites[]=$registro;\n\t\t\t}\n\t\t\t\n\t\t\t\n\t\t\t$this->campdet_quantidade = count($this->convites);\n\n\t\t}\n\n\t\tpublic function valida_convite_avulso(){\n\n\t\t\t$this->erros = array();\n\n\t\t\tif (strlen($this->campdet_cliente_nome)==0){\n\t\t\t\t$this->erros['nome_nao_informado'] = \"Nome do cliente não informado\";\n\t\t\t}\n\n\t\t\tif (strlen($this->campdet_cliente_cpf) > 0){\n\t\t\t\tif (!$this->valida_cpf_cliente()){\n\t\t\t\t\t$this->erros['cpf_invalido'] = \"CPF informado é inválido\";\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tif (strlen($this->campdet_cliente_email)==0){\n\t\t\t\t$this->erros['email_nao_informado']= \"E-mail do cliente não informado\";\n\t\t\t} else {\n\t\t\t\tif (!filter_var($this->campdet_cliente_email,FILTER_VALIDATE_EMAIL)){\n\t\t\t\t\t$this->erros['email_invalido']=\"O e-mail informado é inválido\";\n\t\t\t\t}\n\t\t\t\t\n\t\t\t}\n\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function valida_cpf_cliente() {\t   \n\t \n\t\t \t$cpf = $this->campdet_cliente_cpf;\n\n\t\t    // Elimina possivel mascara\n\t\t    $cpf = preg_replace('[^0-9]', '', $cpf);\n\t\t    $cpf = str_pad(trim($cpf), 11, '0', STR_PAD_LEFT);\n\t\t     \n\t\t    // Verifica se o numero de digitos informados é igual a 11 \n\t\t    if (strlen($cpf) != 11) {\n\t\t        return false;\n\t\t    }\n\n\t\t    if ($cpf == 0){\n\t\t    \treturn false;\n\t\t    }\n\t\t    // Verifica se nenhuma das sequências invalidas abaixo \n\t\t    // foi digitada. Caso afirmativo, retorna falso\n\t/*\t    if ($cpf == '00000000000' || \n\t\t        $cpf == '11111111111' || \n\t\t        $cpf == '22222222222' || \n\t\t        $cpf == '33333333333' || \n\t\t        $cpf == '44444444444' || \n\t\t        $cpf == '55555555555' || \n\t\t        $cpf == '66666666666' || \n\t\t        $cpf == '77777777777' || \n\t\t        $cpf == '88888888888' || \n\t\t        $cpf == '99999999999') {\n\t\t        return false;\n\t\t\t}\n\t*/\t     // Calcula os digitos verificadores para verificar se o\n\t\t     // CPF é válido\t    \n\t\t         \n\t\t\tfor ($t = 9; $t < 11; $t++) {\n\t             \n\t            for ($d = 0, $c = 0; $c < $t; $c++) {\n\t                $d += $cpf{$c} * (($t + 1) - $c);\n\t            }\n\t            $d = ((10 * $d) % 11) % 10;\n\t            if ($cpf{$c} != $d) {\n\t                return false;\n\t            }\n\t        }\n\t\t \n\t\t    return true;\n\t    }\t\n\n\t    public function inclui_convite(){\n\n\t    \t$sql = \"insert into MULTICHAT_CAMPANHA_DET (\";\n\t    \t$sql.= \"campdet_campcab_id,\";\n\t    \t$sql.= \"campdet_cliente_nome,\";\n\t    \t$sql.= \"campdet_cliente_cpf,\";\n\t    \t$sql.= \"campdet_cliente_email,\";\n\t    \t$sql.= \"campdet_cadastro_usuario\";\n\t    \t$sql.= \") values (\";\n\t    \t$sql.= \"?,?,?,?,?)\";\n\n\t    \t$decl = $this->db_conn->prepare($sql);\n\n\t    \t$decl->bind_param(\"issss\",\n\t    \t\t\t$this->campcab_id,\n\t    \t\t\t$this->campdet_cliente_nome,\n\t    \t\t\t$this->campdet_cliente_cpf,\n\t    \t\t\t$this->campdet_cliente_email,\n\t    \t\t\t$_SESSION['multichat_user']);\n\n\t\n\n\t    \t$decl->execute();\t    \n\t    \t\n\t    \tif ($this->db_conn->errno > 0){\n\t    \t\t$this->erros['erro_na_inclusao'] = \"Problemas na inclusão do convite. Status \" . $this->db_conn->errno . \" / \" . $this->db_conn->error;\n\t    \t\treturn;\n\t    \t}\n\n\t    \t$decl->close();\n\t    \treturn;\n\t    }\t\n\n\t    public function carrega_arquivo_csv(){\n\t    \t\n\t    \t$num_lidos = 0;\n\t    \t$num_gravados = 0;\n\t    \t$num_erros = 0;\n\n\t\t\t$arquivo = fopen($this->nome_arquivo_entrada, \"r\");\n\t\t\t$log = fopen($this->nome_arquivo_saida, \"w\");\n\t\t\tfwrite($log,\"RESULTADO DA IMPORTAÇÃO DO ARQUIVO:\\n\");\n\t\t\tfwrite($log,\"=====================================\\n\\n\");\n\t\t\t$convites = fgetcsv($arquivo,150,\";\");\n\n\t\t\twhile (!feof($arquivo)){\n\t\t\t\t\n\t\t\t\t$num_lidos +=1;\n\t\t\t\t$this->campdet_cliente_nome = $convites[0];\n\t\t\t\t$this->campdet_cliente_cpf = $convites[1];\n\t\t\t\t$this->campdet_cliente_email = $convites[2];\n\t\t\t\t\n\t\t\t\t$log_texto = \"\\n\" . $num_lidos . \") \";\n\t\t\t\t$log_texto.= \"NOME: \" . $convites[0] . \"; \";\n\t\t\t\t$log_texto.= \"CPF: \" . $convites[1] . \"; \";\n\t\t\t\t$log_texto.= \"EMAIL \" . $convites[2] . \" .\";\t\n\n\t\t\t\t$this->valida_convite_avulso();\n\t\t\t\t$mens_erro = \"\";\n\n\t\t\t\tif (count($this->erros)>0){\n\t\t\t\t\t$mens_erro = \" - ERROS: \";\n\t\t\t\t\tforeach($this->erros as $erro){\n\t\t\t\t\t\t$mens_erro.= $erro . \" - \";\n\t\t\t\t\t}\n\t\t\t\t\t$num_erros+=1;\n\t\t\t\t} else {\n\t\t\t\t\t$mens_erro = \" - OK \";\n\t\t\t\t\t$this->inclui_convite();\n\t\t\t\t\t$num_gravados+=1;\n\t\t\t\t}\n\n\t\t\t\tfwrite($log,$log_texto . $mens_erro);\n\t\t\t\t$convites = fgetcsv($arquivo,150,\";\");\n\t\t\t}\n\n\t\t\tfwrite($log,\"\\n\\n\");\n\t\t\tfwrite($log,\"Registros lidos :\" . $num_lidos . \"\\n\");\n\t\t\tfwrite($log,\"Registros incluídos :\" . $num_gravados . \"\\n\");\n\t\t\tfwrite($log,\"Registros com erros :\" . $num_erros . \"\\n\");\n\t\t\tfclose($arquivo);\n\t\t\tfclose($log);\n\t\t\tunlink($this->nome_arquivo_entrada);\n\n\t    \treturn;\n\t    }\n\n\t    public function enviar_emails_campanha(){\n\n\t    \t$this->erros = array();\n\n\t    \t//carrega dados da campanha\n\t    \t$this->obtem_campanha_por_id();\n\t    \t//obter convites\n\t    \t$this->carregar_convites();\n\n\t    \tif (count($this->convites)==0){\n\t    \t\t$this->erros[]=\"Os convites para o envio da campanha ainda não foram cadastrados!\";\n\t    \t\treturn;\n\t    \t}\n\n\t    \tforeach($this->convites as $convite){\n\n\t    \t\t$this->set_campdet_id($convite['campdet_id']);\n\t    \t\t$this->set_campdet_cliente_nome($convite['campdet_cliente_nome']);\n\t    \t\t$this->set_campdet_cliente_email($convite['campdet_cliente_email']);\n\n\t    \t\t$this->gerar_token_conversa();\n\n\t    \t\t$this->enviar_email_convite();\t    \t\t\n\n\t    \t\t$this->atualiza_conversa_token();\n\t    \t}\n\n\t    \tif (count($this->erros)\t==0 ){\n\t    \t\t$this->atualiza_envio_campanha();\n\t    \t}\t    \t\n\n\t    \treturn;\n\t    }\n\n\t    public function enviar_email_convite(){\n\n\t\t//\t$direcionamento = \"http://localhost/multisms/multichat/cliente_view.php\";\n\t\t\t$direcionamento = APP_FOLDER . \"cliente_view.php\";\n\n\t\t\tif (!isset($this->Email)){\n\t\t\t\t$this->Email= new Enviar_email();\n\t\t\t}\n\n\t\t\t$this->Email->LimpaListaDeDestinatarios();\n\t\t\t$this->Email->setDestinatario($this->campdet_cliente_email);\n\t\t\t$this->Email->setTitulo(\"Temos uma proposta para você\");\n\t\t\t$this->Email->setAssunto(\"Recupere o seu crédito!\");\n\n\t\t\t$mensagem = \"<br>Sr(a) \" . $this->campdet_cliente_nome . \",\";\n\t\t\t\n\t\t\t$mensagem.=\"<br>\" . $this->campcab_mensagem;\n\n\t\t\t//botão para o cliente entrar em contato\n\t\t\t$mensagem.=\"<br><form method='post' action='{$direcionamento}'>\";\n\t\t\t$mensagem.=\"<input type='hidden' id='token' name='token' value='{$this->campdet_token_conversa}'>\";\n\t\t\t$mensagem.=\"<button type='submit' style='margin-top:25px;padding:12px 10px; background-color:#a94442;border-radius:20px;color:white;text-decoration:none;font-weight:bold; cursor:pointer;'>QUERO NEGOCIAR AGORA!</button></form>\";\n\n\t\t\t$this->Email->setMensagem($mensagem);\t\t\n\t\t\t$this->Email->formata_mensagem();\n\t\t\t$this->Email->enviar();\n\t\t\n\t\t}\n\n\t\tprivate function gerar_token_conversa(){\n\n\t\t\t$chave = \"cp\" . $this->campcab_id . \"cv\" . $this->campdet_id;\n\t\t\t$this->campdet_token_conversa = md5($chave);\n\t\t}\n\n\t\tprivate function atualiza_conversa_token(){\n\n\t\t\t$sql = \"update MULTICHAT_CAMPANHA_DET set campdet_token_conversa= ? where campdet_id = ? and campdet_campcab_id = ?\";\n\t\t\t$decl = $this->db_conn->prepare($sql);\n\t\t\t$decl->bind_param(\"sii\", $this->campdet_token_conversa, $this->campdet_id, $this->campcab_id);\n\t\t\t$decl->execute();\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\t$this->erros[]=\"Erro na atualização do convite. Status \" . $this->db_conn->errno . \", \" . $this->db_conn->error;\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$decl->close();\n\t\t\treturn;\n\t\t}\n\n\t\tprivate function atualiza_envio_campanha(){\n\n\t\t\t$this->campcab_envio_data = date(\"Y-m-d H:i:s\",time());\n\t\t\t$this->campcab_envio_usuario = $_SESSION['multichat_user'];\n\t\t\t$this->campcab_status = 1;\n\n\t\t\t$sql = \"update MULTICHAT_CAMPANHA_CAB set campcab_envio_data = ?, campcab_envio_usuario = ?, campcab_status = ? where campcab_id = ?\";\n\n\t\t\t$decl = $this->db_conn->prepare($sql);\n\t\t\t$decl->bind_param(\"ssii\", $this->campcab_envio_data, $this->campcab_envio_usuario, $this->campcab_status, $this->campcab_id);\n\t\t\t$decl->execute();\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\t$this->erros[]=\"Erro na atualização do convite. Status \" . $this->db_conn->errno . \", \" . $this->db_conn->error;\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$decl->close();\n\n\t\t}\n\n\t\tpublic function obter_conversa_por_token(){\n\n\t\t\t$this->campdet_id = 0;\n\t\t\t$this->campcab_id = 0;\n\t\t\t$this->campdet_cliente_nome = \"\";\n\t\t\t$this->campdet_cliente_cpf = \"\";\n\t\t\t$this->campdet_cliente_email = \"\";\n\n\t\t\t$sql=\"select * from MULTICHAT_CAMPANHA_DET where campdet_token_conversa = '{$this->campdet_token_conversa}'\";\n\n\t\t\t$resultado=$this->db_conn->query($sql);\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\techo \"Erro no acesso ao banco de dados de convites. \";\n\t\t\t\techo \"<br>Código: {$this->db_conn->errno}\";\n\t\t\t\techo \"<br>Mensagem: {$this->db_conn->error}\";\n\t\t\t\tdie();\n\t\t\t}\n\n\t\t\t$informacoes = $resultado->fetch_assoc();\n\n\t\t\tif (count($informacoes)==0){\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$this->campdet_id = $informacoes['campdet_id'];\n\t\t\t$this->campcab_id = $informacoes['campdet_campcab_id'];\n\t\t\t$this->campdet_cliente_nome = $informacoes['campdet_cliente_nome'];\n\t\t\t$this->campdet_cliente_cpf = $informacoes['campdet_cliente_cpf'];\n\t\t\t$this->campdet_cliente_email = $informacoes['campdet_cliente_email'];\n\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function atualiza_campanha_conversa_id(){\n\n\t\t\t$this->erros = array();\n\n\t\t\t$sql = \"Update MULTICHAT_CAMPANHA_DET set campdet_conversa_id = ? where campdet_id = ? and campdet_campcab_id = ?\";\n\t\t\t$decl = $this->db_conn->prepare($sql);\n\t\t\t$decl->bind_param(\"iii\",\n\t\t\t\t\t\t\t\t$this->campdet_conversa_id,\n\t\t\t\t\t\t\t\t$this->campdet_id,\n\t\t\t\t\t\t\t\t$this->campcab_id);\n\t\t\t$decl->execute();\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\t$this->erros[] = \"Erro ao atualizar a campanha. Status \" . $this->db_conn->errno . \"/\" . $this->db_conn->error;\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$decl->close();\n\t\t\treturn;\n\t\t}\n\n\t\tpublic function atualiza_cpf_convite(){\n\n\t\t\t$this->erros = array();\n\n\t\t\t$sql = \"Update MULTICHAT_CAMPANHA_DET set campdet_cliente_cpf = ? where campdet_id = ? and campdet_campcab_id = ?\";\n\t\t\t$decl = $this->db_conn->prepare($sql);\n\t\t\t$decl->bind_param(\"sii\",\n\t\t\t\t\t\t\t\t$this->campdet_cliente_cpf,\n\t\t\t\t\t\t\t\t$this->campdet_id,\n\t\t\t\t\t\t\t\t$this->campcab_id);\n\t\t\t$decl->execute();\n\n\t\t\tif ($this->db_conn->errno > 0){\n\t\t\t\t$this->erros[] = \"Erro ao atualizar o cpf no convite da campanha. Status \" . $this->db_conn->errno . \"/\" . $this->db_conn->error;\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t$decl->close();\n\t\t\treturn;\n\t\t}\n\t}\n?>",
+			"file": "class/Campanha.php",
+			"file_size": 20500,
+			"file_write_time": 131490332220893236,
+			"settings":
+			{
+				"buffer_size": 19778,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 210,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "teste.php",
+			"settings":
+			{
+				"buffer_size": 49,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "class/Conversa.php",
+			"settings":
+			{
+				"buffer_size": 25167,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/multichat_style.css",
+			"settings":
+			{
+				"buffer_size": 7372,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"PHP: Generate",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/MULTISMS/MULTICHAT"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/MULTISMS/MULTICHAT/operador_chamar_proximo_cliente.php",
+		"/D/xampp/htdocs/MULTISMS/MULTICHAT/class/Auxiliares.php",
+		"/D/xampp/htdocs/Jackson/pmo/index.php",
+		"/D/xampp/htdocs/Jackson/pmo/models/connect.php",
+		"/D/xampp/htdocs/Jackson/pmo/home.php",
+		"/D/xampp/htdocs/Jackson/pmo/carga_plano_operativo.php",
+		"/D/xampp/htdocs/Jackson/pmo/lista_base_unica.php",
+		"/D/xampp/htdocs/Jackson/pmo/models/action_carga_arquivos.php",
+		"/D/xampp/htdocs/Jackson/pmo/login.php",
+		"/D/xampp/htdocs/Jackson/pmo/models/loginModel.php",
+		"/D/xampp/htdocs/Jackson/pmo/mobile.php",
+		"/D/xampp/htdocs/Jackson/pmo/old_cadastro_menu.php",
+		"/D/xampp/htdocs/Jackson/pmo/old_cadastro_motivo_abertura.php",
+		"/D/xampp/htdocs/Jackson/pmo/painel_geral.php",
+		"/D/xampp/htdocs/Jackson/pmo/painel_geral2.php",
+		"/D/xampp/htdocs/Jackson/pmo/registra_chamado.php",
+		"/D/xampp/htdocs/Jackson/pmo/scripts/limpa_arquivos.php",
+		"/D/xampp/htdocs/Jackson/pmo/teste_window.php",
+		"/D/xampp/htdocs/Jackson/pmo/ticket.php",
+		"/D/xampp/htdocs/Jackson/pmo/upload_arquivos.php",
+		"/D/xampp/htdocs/Jackson/sit/anexar_arquivo_avulso.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_abertura_empresa.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_contato.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_email_posto.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_encerramentoxencaminhamento.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_encerramentoxposto.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_encerramentoxstatus.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_limite_atendimento.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_menu.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_motivo_abertura.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_tipoxprojeto.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_trata_especial.php",
+		"/D/xampp/htdocs/Jackson/sit/cadastro_usuario.php",
+		"/D/xampp/htdocs/Jackson/sit/checa_atendimento.php",
+		"/D/xampp/htdocs/Jackson/sit/classes/email.class.php",
+		"/D/xampp/htdocs/Jackson/sit/classes/importCsv.php",
+		"/D/xampp/htdocs/Jackson/sit/classes/phpmailer/docs/extending.html",
+		"/D/xampp/htdocs/Jackson/sit/classes/phpmailer/examples/test_db_smtp_basic.php",
+		"/D/xampp/htdocs/Jackson/sit/classes/valida.class.php",
+		"/D/xampp/htdocs/Jackson/sit/consulta_ticket.php",
+		"/D/xampp/htdocs/Jackson/sit/consulta_ticket_teste.php",
+		"/D/xampp/htdocs/Jackson/sit/contrato_gerado.php",
+		"/D/xampp/htdocs/Jackson/sit/contrato_gerado_old.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/data_sources/server_side.html",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/infiniteScroll.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing_details_col.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing_filter_col.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing_id.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing_ordering.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/examples_support/server_processing_post.php",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/server_side/editable.html",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/examples/server_side/server_side.html",
+		"/D/xampp/htdocs/Jackson/sit/DataTables-1.7.5/media/unit_testing/performance/large.php",
+		"/D/xampp/htdocs/Jackson/sit/detalha_chamado.php",
+		"/D/xampp/htdocs/Jackson/sit/detalha_chamado_fila.php",
+		"/D/xampp/htdocs/Jackson/sit/detalhe_email.php",
+		"/D/xampp/htdocs/Jackson/sit/edita_usuario.php",
+		"/D/xampp/htdocs/Jackson/sit/export_agendamentos.php",
+		"/D/xampp/htdocs/Jackson/sit/export_xls.php",
+		"/D/xampp/htdocs/Jackson/sit/export_xls_geral.php",
+		"/D/xampp/htdocs/Jackson/sit/home.php",
+		"/D/xampp/htdocs/Jackson/sit/home_new.php",
+		"/D/xampp/htdocs/Jackson/sit/includes/header.inc",
+		"/D/xampp/htdocs/Jackson/sit/includes/header.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_acesso.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_agendamentos.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_aging.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_altera_tipo_ticket.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_area.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_contato_empresa.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_empresa.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_encerramento.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_encerramentoxencaminhamento.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_fila.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_menu.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_motivo_abertura.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_perfil.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_posto.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_posto_n1.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_projeto.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_tipo_tarefa.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_tipo_ticket.php",
+		"/D/xampp/htdocs/Jackson/sit/lista_usuarios.php",
+		"/D/xampp/htdocs/Jackson/sit/log_acoes.php",
+		"/D/xampp/htdocs/Jackson/sit/mobile.php",
+		"/D/xampp/htdocs/Jackson/sit/models/action.php",
+		"/D/xampp/htdocs/Jackson/sit/models/action_acesso.php",
+		"/D/xampp/htdocs/Jackson/sit/models/action_cadastro.php",
+		"/D/xampp/htdocs/Jackson/sit/models/action_combo.php",
+		"/D/xampp/htdocs/Jackson/sit/models/action_email.php",
+		"/D/xampp/htdocs/Jackson/sit/models/connect.php",
+		"/D/xampp/htdocs/Jackson/sit/models/loginModel.php",
+		"/D/xampp/htdocs/Jackson/sit/registra_chamado.php",
+		"/D/xampp/htdocs/Jackson/sit/scripts/limpa_arquivos.php",
+		"/D/xampp/htdocs/Jackson/sit/ticket.php",
+		"/D/xampp/htdocs/Jackson/sit/upload_arquivos.php",
+		"/D/xampp/htdocs/Jackson/pmo/anexar_arquivo_avulso.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_email_posto.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_encerramentoxencaminhamento.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_encerramentoxposto.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_encerramentoxstatus.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_limite_atendimento.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_tipoxprojeto.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_trata_especial.php",
+		"/D/xampp/htdocs/Jackson/pmo/cadastro_usuario.php",
+		"/D/xampp/htdocs/Jackson/pmo/checa_atendimento.php",
+		"/D/xampp/htdocs/Jackson/pmo/classes/importCsv.php",
+		"/D/xampp/htdocs/Jackson/pmo/classes/phpmailer/docs/extending.html",
+		"/D/xampp/htdocs/Jackson/pmo/classes/phpmailer/examples/test_db_smtp_basic.php",
+		"/D/xampp/htdocs/Jackson/pmo/classes/valida.class.php",
+		"/D/xampp/htdocs/Jackson/pmo/consulta_ticket.php",
+		"/D/xampp/htdocs/Jackson/pmo/consulta_ticket_teste.php",
+		"/D/xampp/htdocs/Jackson/pmo/dashboard_projeto.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/data_sources/server_side.html",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/infiniteScroll.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing_details_col.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing_filter_col.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing_id.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing_ordering.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/examples_support/server_processing_post.php",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/server_side/editable.html",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/examples/server_side/server_side.html",
+		"/D/xampp/htdocs/Jackson/pmo/DataTables-1.7.5/media/unit_testing/performance/large.php",
+		"/D/xampp/htdocs/Jackson/pmo/detalha_base_unica.php",
+		"/D/xampp/htdocs/Jackson/pmo/detalha_chamado.php",
+		"/D/xampp/htdocs/Jackson/pmo/detalha_chamado_fila.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\xampp\\htdocs\\Jackson",
+			"D:\\xampp\\htdocs\\MULTISMS\\MULTICHAT"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cpf_cliente",
+			"cpf",
+			"campanha",
+			"update",
+			"cliente_cpf",
+			"ob_",
+			"cargaPlanoOperativo",
+			"acao",
+			"Erro ao selecionar bases de dado",
+			"mysql_",
+			"\"login\"",
+			"login",
+			"<?include",
+			"<?php php",
+			"<?phpecho",
+			"<? ",
+			"<?php php",
+			"<?php php ",
+			"<?",
+			"<?=",
+			"<?",
+			"<? ",
+			"base única",
+			"base unica",
+			"conn",
+			"output_dir",
+			"mysql_",
+			"operador_barra_superior",
+			"multichat_mensagem",
+			"multichat_conversa",
+			"multichat_usuario",
+			"multichat_campanha_det",
+			"multichat_campanha_cab",
+			"multichat_campanha",
+			"multichat_usuario",
+			"min-",
+			"lista_conversas",
+			"formata_data",
+			"set_conversa_pe",
+			"lista_",
+			"campanha",
+			"controle_atualizacao_conversa",
+			"setin",
+			"cleari",
+			"controle_atualizacao_conversa",
+			"finalizar",
+			"marcar_conversa_como_encerrada",
+			"div_texto",
+			"tecla_pressionada",
+			"READY",
+			"text_operador_texto",
+			"text_operador_texto.value",
+			"ready",
+			"gravacao",
+			"ready",
+			"div_conversa",
+			"conversa_id",
+			"count($",
+			"\t\t\t\n",
+			"cpf_cliente",
+			"enviar",
+			"else",
+			"conversa_id",
+			"notify",
+			"notifyme",
+			"dropdown",
+			"href",
+			"cliente",
+			"operador_dashboard",
+			"y-m",
+			"fila",
+			"notify",
+			"btn-group",
+			"select",
+			"danger",
+			"   \t\t\n",
+			"\t\n",
+			"senha",
+			"campanha_cance",
+			"TITU",
+			"form_",
+			"form-",
+			"titulo_form_cadastro",
+			"campanhas",
+			"fet",
+			"consulta_usuario_por_id",
+			"CONTROL-LABEL",
+			"logout.js",
+			"class='texto_ao_CENTRO'",
+			"btn_usuario_exclusao",
+			"orange"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mysqli_",
+			"<?php include ",
+			"<?php ",
+			"<?php",
+			"<?php ",
+			"<?php echo ",
+			"<?php ",
+			"<?php",
+			"mysqli_",
+			"MULTICHAT_MENSAGEM",
+			"MULTICHAT_CONVERSA",
+			"MULTICHAT_USUARIO",
+			"MULTICHAT_CAMPANHA_DET",
+			"MULTICHAT_CAMPANHA_CAB",
+			"MULTICHAT_CAMPANHA",
+			"MULTICHAT_USUARIO",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "operador_dashboard_view.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11784,
+								11784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "operador_verifica_status.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "class/ConsisteFormataString.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1671,
+								1671
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "operador_associa_cpf.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2809,
+								2809
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "class/Campanha.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15153,
+								15153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7930.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "teste.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "class/Conversa.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3230,
+								3230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1613.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/multichat_style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7367,
+								7367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7441.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "multichat.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"17":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"78":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"80":
+				{
+					"group": 0,
+					"index": 5
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

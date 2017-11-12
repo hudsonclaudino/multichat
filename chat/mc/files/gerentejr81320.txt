@@ -1,0 +1,38 @@
+RESULTADO DA IMPORTAÇÃO DO ARQUIVO:
+=====================================
+
+
+1) NOME: Nilton Junior1; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+2) NOME: Nilton Junior2; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+3) NOME: Nilton Junior3; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+4) NOME: Nilton Junior4; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+5) NOME: Nilton Junior5; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+6) NOME: Nilton Junior6; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+7) NOME: Nilton Junior7; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+8) NOME: Nilton Junior8; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+9) NOME: Nilton Junior9; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+10) NOME: Nilton Junior10; CPF: aaaaasdfasdfadsf; EMAIL niltonssjr@gmail.com . - ERROS: CPF informado é inválido - 
+11) NOME: Nilton Junior11; CPF: ; EMAIL asdfasdf . - ERROS: O e-mail informado é inválido - 
+12) NOME: Nilton Junior12; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+13) NOME: Nilton Junior13; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+14) NOME: Nilton Junior14; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+15) NOME: Nilton Junior15; CPF: ; EMAIL asdfasdf . - ERROS: O e-mail informado é inválido - 
+16) NOME: Nilton Junior16; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+17) NOME: Nilton Junior17; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+18) NOME: Nilton Junior18; CPF: ; EMAIL asdfasdf . - ERROS: O e-mail informado é inválido - 
+19) NOME: Nilton Junior19; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+20) NOME: Nilton Junior20; CPF: ; EMAIL niltonssjr@gmail.com . - OK 
+21) NOME: Nilton Junior21; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+22) NOME: Nilton Junior22; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+23) NOME: Nilton Junior23; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+24) NOME: Nilton Junior24; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+25) NOME: Nilton Junior25; CPF: 11111111111; EMAIL adsasdf . - ERROS: O e-mail informado é inválido - 
+26) NOME: Nilton Junior26; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+27) NOME: Nilton Junior27; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+28) NOME: Nilton Junior28; CPF: 22222222222; EMAIL niltonssjr@gmail.com . - OK 
+29) NOME: Nilton Junior29; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+30) NOME: Nilton Junior30; CPF: 11111111111; EMAIL niltonssjr@gmail.com . - OK 
+
+Registros lidos :30
+Registros incluídos :25
+Registros com erros :5
